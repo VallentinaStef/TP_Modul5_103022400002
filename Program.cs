@@ -6,5 +6,9 @@ class Program
     {
         HaloGeneric halo = new HaloGeneric();
         halo.SapaUser<string>("Stefhanie Valentina");
+
+        DataGeneric<string> data = new DataGeneric<string>("103022400002_Stefhanie Valentina");
+        data.PrintData();
+
     }
 }
